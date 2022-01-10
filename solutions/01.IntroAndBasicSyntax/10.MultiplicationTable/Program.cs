@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _10.MultiplicationTable
 {
@@ -6,7 +6,12 @@ namespace _10.MultiplicationTable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var n = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"{n} X {i} = {n * i}");
+            }
         }
     }
 }
