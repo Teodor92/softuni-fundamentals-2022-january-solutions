@@ -1,8 +1,8 @@
 using System;
 
-namespace _01.ConvertMetersToKilometers
+namespace _00.Demos
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
