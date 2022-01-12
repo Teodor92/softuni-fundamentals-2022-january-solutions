@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _02.Passed
 {
@@ -6,7 +6,12 @@ namespace _02.Passed
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double grade = double.Parse(Console.ReadLine());
+
+            if (grade >= 3)
+            {
+                Console.WriteLine("Passed!");
+            }
         }
     }
 }

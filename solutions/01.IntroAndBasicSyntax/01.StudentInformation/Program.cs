@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _01.StudentInformation
 {
@@ -6,7 +6,11 @@ namespace _01.StudentInformation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+            double averageGrade = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Name: {name}, Age: {age}, Grade: {averageGrade:F2}");
         }
     }
 }
